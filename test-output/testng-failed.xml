@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+<<<<<<< HEAD
+      <class name="com.spicejet.tests.LoginPageTest">
+        <methods>
+          <include name="closeAllBrowsers"/>
+          <include name="logintab"/>
+        </methods>
+      </class> <!-- com.spicejet.tests.LoginPageTest -->
+=======
+      <class name="com.bestbuy.tests.PaymentTest">
+        <methods>
+          <include name="PayInfo"/>
+          <include name="closeAllBrowsers"/>
+        </methods>
+      </class> <!-- com.bestbuy.tests.PaymentTest -->
+>>>>>>> 4e96235b778a27427cf8a05b857a4d4397a2d9d0
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
